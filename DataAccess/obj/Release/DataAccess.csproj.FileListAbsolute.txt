@@ -1,0 +1,112 @@
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Release\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Release\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer\OneCommerce\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OneCommerce\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer\OneCommerce\DataAccess\obj\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\DataAccess.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\DataAccess.pdb
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\BusinessEntities.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\ERPAlexia\DataAccess\bin\Release\BusinessEntities.pdb
+D:\Christofer\ERPAlexia\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\ERPAlexia\DataAccess\obj\Release\Interop.SAPbobsCOM.dll
+D:\Christofer\ERPAlexia\DataAccess\obj\Release\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\ERPAlexia\DataAccess\obj\Release\DataAccess.dll
+D:\Christofer\ERPAlexia\DataAccess\obj\Release\DataAccess.pdb

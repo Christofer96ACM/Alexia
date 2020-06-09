@@ -1,0 +1,120 @@
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\BusinessRules.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\BusinessRules.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\ResultSetMappers.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\bin\Release\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\obj\Release\BusinessRules.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessRules\obj\Release\BusinessRules.pdb
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer\OneCommerce\BusinessRules\obj\Release\BusinessRules.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\BusinessRules.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\BusinessRules.pdb
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\DataAccess.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\ResultSetMappers.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\BusinessEntities.pdb
+D:\Christofer\ERPAlexia\BusinessRules\bin\Release\DataAccess.pdb
+D:\Christofer\ERPAlexia\BusinessRules\obj\Release\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\ERPAlexia\BusinessRules\obj\Release\BusinessRules.dll
+D:\Christofer\ERPAlexia\BusinessRules\obj\Release\BusinessRules.pdb
