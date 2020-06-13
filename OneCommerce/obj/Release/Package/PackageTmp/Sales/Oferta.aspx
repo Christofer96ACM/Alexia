@@ -1076,6 +1076,16 @@
                                         </dx:ASPxButton>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -1430,8 +1440,24 @@
                                     <td id="ProductParCaption" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
-                                        <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100%" 
+                                        <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100px" 
                                             ClientInstanceName="txtParProduct">
+                                            <ClientSideEvents KeyUp="Get_Product" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                    <td id="ProductParCaption2" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtDescription" runat="server" Width="400px" 
+                                            ClientInstanceName="txtDescription">
+                                            <ClientSideEvents KeyUp="Get_Product" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                    <td id="ProductParCaption3" style="width:105px">
+                                        Marca:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtMarca" runat="server" Width="100px" 
+                                            ClientInstanceName="txtMarca">
                                             <ClientSideEvents KeyUp="Get_Product" />
                                         </dx:ASPxTextBox>
                                     </td>
@@ -1514,6 +1540,10 @@
                                     </dx:GridViewDataTextColumn>
                                     <dx:GridViewDataTextColumn Caption="Gestion Articulo" FieldName="IssueMthd" 
                                         ShowInCustomizationForm="True" Visible="true" VisibleIndex="8" 
+                                        Width="80px">
+                                    </dx:GridViewDataTextColumn>
+                                    <dx:GridViewDataTextColumn Caption="Marca" FieldName="U_GOS_MARCA" 
+                                        ShowInCustomizationForm="True" Visible="true" VisibleIndex="9" 
                                         Width="80px">
                                     </dx:GridViewDataTextColumn>
                                     <%--<dx:GridViewDataTextColumn Caption="Stock" FieldName="U_StoDiBE"
@@ -1610,7 +1640,7 @@
         </ContentCollection>
     </dx:ASPxPopupControl>
     <dx:ASPxPopupControl ID="ppcOrdrSearch" runat="server" 
-        ClientInstanceName="ppcOrdrSearch" FooterText=" " HeaderText="Buscar Orden de Venta" 
+        ClientInstanceName="ppcOrdrSearch" FooterText=" " HeaderText="Buscar Oferta de Venta" 
         PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
         RenderMode="Lightweight" ShowFooter="True" Width="800px" Modal="true"
         AllowDragging="True" PopupAnimationType="Fade">
@@ -1644,7 +1674,7 @@
                                     <td style="width:5px">
                                     </td>
                                     <td style="width:130px">
-                                        Nro. Pedido:</td>
+                                        Nro. Oferta:</td>
                                     <td style="width:170px">
                                         <dx:ASPxTextBox ID="txtDocNums" runat="server" 
                                             ClientInstanceName="txtDocNums" Width="170px">
@@ -1677,6 +1707,25 @@
                                     <td style="width:50px">
 
                                     </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:105px">
+                                        Dirección:</td>
+                                    <td colspan="2">
+                                        <dx:ASPxTextBox ID="txtdirec" runat="server" 
+                                            ClientInstanceName="txtdirec" Width="260px">
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                    <td style="width:5px">
+                                    </td>
+                                    <td style="width:40px"></td>
+                                        <td>
+                                             <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
+                                    
+                                    
                                 </tr>
                             </table>
                         </td>
@@ -1780,6 +1829,19 @@
                                     <Row Font-Size="7pt">
                                     </Row>
                                 </Styles>
+                                     <SettingsPager Visible="False" Mode="ShowAllRecords">
+                                                    </SettingsPager>
+                                                    <SettingsEditing Mode="Inline" NewItemRowPosition="Bottom" />
+                                                    <Settings ShowFooter="True" ShowTitlePanel="True" />
+                                                    <SettingsText Title="Oferta de Venta" />
+                                                    <Styles>
+                                                        <Row Font-Size="7pt">
+                                                        </Row>
+                                                        <Footer Font-Size="1pt">
+                                                        </Footer>
+                                                        <TitlePanel Font-Bold="True" Font-Size="7pt" HorizontalAlign="Center">
+                                                        </TitlePanel>
+                                                    </Styles>
                             </dx:ASPxGridView>
                         </td>
                     </tr>
@@ -1808,7 +1870,10 @@
                 </table>
             </dx:PopupControlContentControl>
         </ContentCollection>
+
     </dx:ASPxPopupControl>
+     <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="gdvOrdrSearch">
+    </dx:ASPxGridViewExporter>
 
     <dx:ASPxPopupControl ID="ppcOqutSearch" runat="server" 
         ClientInstanceName="ppcOqutSearch" FooterText=" " HeaderText="Buscar Oferta de Venta" 

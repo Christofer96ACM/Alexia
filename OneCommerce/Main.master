@@ -81,7 +81,7 @@
                                     </dx:NavBarGroup>
                                     <dx:NavBarGroup Name="Reports" Text="Reportes" Expanded="False">
                                         <Items>
-                                            <dx:NavBarItem Name="Dashboard Ventas" Text="Dashboard" NavigateUrl="~/Reportes/Dashboard.aspx">
+                                            <dx:NavBarItem Name="Dashboard Ventas" Text="Dashboard Ventas" NavigateUrl="~/Reportes/Dashboard.aspx">
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="Dashboard Compras" Text="Dashboard Compras" NavigateUrl="~/Reportes/DashboardCompras.aspx">
                                             </dx:NavBarItem>

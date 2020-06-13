@@ -160,6 +160,7 @@ namespace OneCommerce.Reportes
             obep.DateFi = Convert.ToDateTime(dteDateFi.Text);
             obep.Socied = obep.Socied;
             obep.Project = obep.Project;
+            obep.Number = Convert.ToInt32(obep.U_BF_EMID);
 
             var obr = new BRDocument();
             var olst = obr.Get_OSCSP_RPCJ(obep);

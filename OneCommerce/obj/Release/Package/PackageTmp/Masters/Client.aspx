@@ -44,7 +44,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td style="width:140px">
-                                                            Cliente:</td>
+                                                            Razón Social:</td>
                                                         <td style="width:240px">
                                                             <dx:ASPxTextBox ID="txtCrCardName" runat="server" Width="100%"
                                                                 ClientInstanceName="txtCrCardName">
@@ -1124,6 +1124,16 @@
                                             ClientInstanceName="bteClientSearch" AutoPostBack="False">
                                             <ClientSideEvents Click="Get_Client" />
                                         </dx:ASPxButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
                                     </td>
                                 </tr>
                             </table>

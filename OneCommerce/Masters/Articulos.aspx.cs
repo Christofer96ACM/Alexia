@@ -453,7 +453,8 @@ namespace OneCommerce.Masters
                     Socied = obec.Socied,
                     accion = 1,
                     ItemCode = txtParProduct.Text.Trim(),
-                    VALOR = txtmarc.Text
+                    VALOR = txtmarc.Text,
+                    Descripcion = txtdescrip.Text
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.GET_ARTICULOS_GENERAL(obep);

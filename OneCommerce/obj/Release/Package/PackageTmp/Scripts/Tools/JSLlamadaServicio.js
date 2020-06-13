@@ -130,6 +130,7 @@ function Get_InitialData() {
 }
 function Set_InitialData(result) {
     dteFecha.SetDate(new Date());
+    dteFecha2.SetDate(new Date());
     txtcreateDate1.SetDate(new Date());
     txtcloseDate1.SetDate(new Date());
     txtnumContrato.SetText("-");

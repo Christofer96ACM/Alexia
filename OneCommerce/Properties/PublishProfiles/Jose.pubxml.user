@@ -24,6 +24,9 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="Account/Login2.aspx">
       <publishTime>02/22/2020 09:46:40</publishTime>
     </File>
+    <File Include="Account/Recoverer.aspx">
+      <publishTime>06/06/2020 14:49:00</publishTime>
+    </File>
     <File Include="Account/Register.aspx">
       <publishTime>12/30/2019 07:57:25</publishTime>
     </File>
@@ -1450,7 +1453,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/30/2019 07:57:32</publishTime>
     </File>
     <File Include="bin/BusinessEntities.dll">
-      <publishTime>05/29/2020 16:30:13</publishTime>
+      <publishTime>06/10/2020 20:35:34</publishTime>
     </File>
     <File Include="bin/BusinessObjects.Enterprise.Sdk.dll">
       <publishTime>01/11/2020 15:15:34</publishTime>
@@ -1474,10 +1477,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/11/2020 15:15:33</publishTime>
     </File>
     <File Include="bin/BusinessRules.dll">
-      <publishTime>05/29/2020 16:30:14</publishTime>
+      <publishTime>06/12/2020 10:59:00</publishTime>
     </File>
     <File Include="bin/BusinessServices.dll">
-      <publishTime>05/29/2020 16:30:14</publishTime>
+      <publishTime>06/12/2020 10:59:00</publishTime>
     </File>
     <File Include="bin/CRVsPackageLib.dll">
       <publishTime>02/13/2014 12:53:10</publishTime>
@@ -1555,7 +1558,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/13/2014 12:55:14</publishTime>
     </File>
     <File Include="bin/DataAccess.dll">
-      <publishTime>05/29/2020 16:30:14</publishTime>
+      <publishTime>06/12/2020 10:58:59</publishTime>
     </File>
     <File Include="bin/de/DevExpress.Dashboard.v13.1.Core.resources.dll">
       <publishTime>04/21/2020 19:17:42</publishTime>
@@ -2005,7 +2008,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/OneCommerce.dll">
-      <publishTime>05/29/2020 16:30:18</publishTime>
+      <publishTime>06/12/2020 10:59:04</publishTime>
     </File>
     <File Include="bin/OneCommerce.dll.config">
       <publishTime>01/06/2020 16:17:43</publishTime>
@@ -2136,6 +2139,36 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="Content/EstilosChristofer.css">
       <publishTime>02/28/2020 09:35:53</publishTime>
     </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>06/06/2020 12:28:54</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.eot">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.svg">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.ttf">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.woff">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.woff2">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/FontAwesome.otf">
+      <publishTime>06/06/2020 12:28:39</publishTime>
+    </File>
+    <File Include="Content/Images/1.jpg">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
+    <File Include="Content/Images/1.png">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
+    <File Include="Content/Images/2.jpg">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
     <File Include="Content/Images/Alexia-plataforma.jpg">
       <publishTime>04/28/2020 11:06:24</publishTime>
     </File>
@@ -2151,11 +2184,23 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="Content/Images/GlassHeader.jpg">
       <publishTime>12/30/2019 07:57:25</publishTime>
     </File>
+    <File Include="Content/Images/i1.png">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
+    <File Include="Content/Images/i2.png">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
     <File Include="Content/Images/PlasticBlueHeader.jpg">
       <publishTime>12/30/2019 07:57:25</publishTime>
     </File>
     <File Include="Content/Images/RedWineHeader.jpg">
       <publishTime>12/30/2019 07:57:25</publishTime>
+    </File>
+    <File Include="Content/Images/tick.png">
+      <publishTime>06/06/2020 12:28:23</publishTime>
+    </File>
+    <File Include="Content/jquery-ui.css">
+      <publishTime>06/06/2020 12:28:54</publishTime>
     </File>
     <File Include="Content/loginstyle/css/main.css">
       <publishTime>12/30/2019 07:57:25</publishTime>
@@ -2477,6 +2522,9 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     </File>
     <File Include="Content/Site.css">
       <publishTime>02/21/2020 10:55:23</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>06/06/2020 12:28:54</publishTime>
     </File>
     <File Include="crystalreportviewers14/ActiveXControls/PrintControl.cab">
       <publishTime>12/30/2019 07:57:34</publishTime>
@@ -3982,10 +4030,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>05/29/2020 12:05:36</publishTime>
     </File>
     <File Include="GestionBancos/PagosEfectuados.aspx">
-      <publishTime>05/14/2020 16:39:13</publishTime>
+      <publishTime>06/09/2020 19:21:00</publishTime>
     </File>
     <File Include="GestionBancos/PagosRecibidos.aspx">
-      <publishTime>05/14/2020 18:11:36</publishTime>
+      <publishTime>06/09/2020 19:20:54</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>12/30/2019 07:57:27</publishTime>
@@ -4003,19 +4051,19 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/30/2019 07:57:28</publishTime>
     </File>
     <File Include="Main.master">
-      <publishTime>05/28/2020 18:22:40</publishTime>
+      <publishTime>06/10/2020 20:47:51</publishTime>
     </File>
     <File Include="Mantenimiento/Zonas.aspx">
       <publishTime>12/30/2019 07:57:28</publishTime>
     </File>
     <File Include="Masters/Articulos.aspx">
-      <publishTime>04/28/2020 13:12:30</publishTime>
+      <publishTime>06/09/2020 15:42:52</publishTime>
     </File>
     <File Include="Masters/Client.aspx">
-      <publishTime>05/14/2020 14:53:43</publishTime>
+      <publishTime>06/09/2020 19:16:02</publishTime>
     </File>
     <File Include="Masters/Kits.aspx">
-      <publishTime>02/22/2020 10:06:44</publishTime>
+      <publishTime>06/09/2020 17:00:49</publishTime>
     </File>
     <File Include="Masters/Permisos.aspx">
       <publishTime>04/29/2020 17:14:52</publishTime>
@@ -4027,10 +4075,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>07/03/2019 15:36:28</publishTime>
     </File>
     <File Include="Masters/Reconciliacion.aspx">
-      <publishTime>05/26/2020 17:55:02</publishTime>
+      <publishTime>06/09/2020 19:19:31</publishTime>
     </File>
     <File Include="Masters/Suppliers.aspx">
-      <publishTime>05/14/2020 14:54:53</publishTime>
+      <publishTime>06/09/2020 19:16:50</publishTime>
     </File>
     <File Include="Masters/TipoCambio.aspx">
       <publishTime>03/02/2020 21:05:51</publishTime>
@@ -4048,16 +4096,16 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Purchase/CompraFactura.aspx">
-      <publishTime>05/28/2020 17:08:59</publishTime>
+      <publishTime>06/11/2020 14:23:38</publishTime>
     </File>
     <File Include="Purchase/CompraGuiaRemision.aspx">
-      <publishTime>05/28/2020 17:02:36</publishTime>
+      <publishTime>06/11/2020 13:37:49</publishTime>
     </File>
     <File Include="Purchase/CompraNotaCredito.aspx">
-      <publishTime>05/28/2020 17:14:59</publishTime>
+      <publishTime>06/11/2020 13:41:21</publishTime>
     </File>
     <File Include="Purchase/CompraOrdenVenta.aspx">
-      <publishTime>03/16/2020 14:48:26</publishTime>
+      <publishTime>06/11/2020 13:42:59</publishTime>
     </File>
     <File Include="Purchase/Compras/FacturaCompra.aspx">
       <publishTime>12/30/2019 07:57:28</publishTime>
@@ -4073,6 +4121,21 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     </File>
     <File Include="Reportes/CierreCaja.aspx">
       <publishTime>02/22/2020 09:57:41</publishTime>
+    </File>
+    <File Include="Reportes/Config/Action_Filter_32x32.png">
+      <publishTime>06/10/2020 20:44:39</publishTime>
+    </File>
+    <File Include="Reportes/Config/DashboardCompras.xml">
+      <publishTime>06/10/2020 20:44:39</publishTime>
+    </File>
+    <File Include="Reportes/Config/DashboardServicios.xml">
+      <publishTime>06/10/2020 20:44:39</publishTime>
+    </File>
+    <File Include="Reportes/Config/DashboardVentas.xml">
+      <publishTime>06/10/2020 20:44:39</publishTime>
+    </File>
+    <File Include="Reportes/Config/jquery.rowspanizer.js">
+      <publishTime>06/10/2020 20:44:39</publishTime>
     </File>
     <File Include="Reportes/Dashboard.aspx">
       <publishTime>05/08/2020 02:12:12</publishTime>
@@ -4099,34 +4162,34 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Root.master">
-      <publishTime>04/04/2020 17:33:21</publishTime>
+      <publishTime>06/06/2020 16:06:20</publishTime>
     </File>
     <File Include="Sales/APInvoice.aspx">
       <publishTime>12/30/2019 07:57:28</publishTime>
     </File>
     <File Include="Sales/ARInvoice.aspx">
-      <publishTime>05/28/2020 15:36:36</publishTime>
+      <publishTime>06/12/2020 09:20:27</publishTime>
     </File>
     <File Include="Sales/Contratos.aspx">
-      <publishTime>03/31/2020 13:52:06</publishTime>
+      <publishTime>06/12/2020 09:34:22</publishTime>
     </File>
     <File Include="Sales/CreditNote.aspx">
-      <publishTime>05/28/2020 16:20:32</publishTime>
+      <publishTime>06/11/2020 12:31:39</publishTime>
     </File>
     <File Include="Sales/DeliveryNote.aspx">
-      <publishTime>05/28/2020 15:05:56</publishTime>
+      <publishTime>06/11/2020 14:30:32</publishTime>
     </File>
     <File Include="Sales/FacturaAnticipo.aspx">
-      <publishTime>05/28/2020 16:09:27</publishTime>
+      <publishTime>06/11/2020 12:33:22</publishTime>
     </File>
     <File Include="Sales/FacturaReserva.aspx">
-      <publishTime>05/28/2020 16:05:11</publishTime>
+      <publishTime>06/11/2020 13:52:46</publishTime>
     </File>
     <File Include="Sales/Oferta.aspx">
-      <publishTime>03/31/2020 15:15:33</publishTime>
+      <publishTime>06/11/2020 13:30:58</publishTime>
     </File>
     <File Include="Sales/OrdenVenta.aspx">
-      <publishTime>03/31/2020 15:15:19</publishTime>
+      <publishTime>06/11/2020 14:08:46</publishTime>
     </File>
     <File Include="Sales/Quotation.aspx">
       <publishTime>12/30/2019 07:57:28</publishTime>
@@ -4233,6 +4296,9 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <File Include="Scripts/Login/Login.js">
       <publishTime>04/27/2020 17:52:25</publishTime>
     </File>
+    <File Include="Scripts/Login/Recoverer.js">
+      <publishTime>06/06/2020 15:30:04</publishTime>
+    </File>
     <File Include="Scripts/Purchase/CompraFactura.js">
       <publishTime>05/28/2020 17:06:50</publishTime>
     </File>
@@ -4291,7 +4357,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>04/09/2020 10:21:55</publishTime>
     </File>
     <File Include="Scripts/Sales/OrdenVenta.js">
-      <publishTime>04/09/2020 10:27:55</publishTime>
+      <publishTime>06/11/2020 20:56:24</publishTime>
     </File>
     <File Include="Scripts/Sales/permission.js">
       <publishTime>12/30/2019 07:57:29</publishTime>
@@ -4321,13 +4387,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/12/2020 22:25:19</publishTime>
     </File>
     <File Include="Scripts/Tools/JSContratos.js">
-      <publishTime>03/30/2020 12:26:23</publishTime>
+      <publishTime>06/11/2020 19:19:35</publishTime>
     </File>
     <File Include="Scripts/Tools/JSKits.js">
-      <publishTime>03/26/2020 14:40:44</publishTime>
+      <publishTime>06/09/2020 16:43:49</publishTime>
     </File>
     <File Include="Scripts/Tools/JSLlamadaServicio.js">
-      <publishTime>04/17/2020 15:50:08</publishTime>
+      <publishTime>06/02/2020 17:46:01</publishTime>
     </File>
     <File Include="Scripts/Tools/JSPermisos.js">
       <publishTime>04/28/2020 15:11:51</publishTime>
@@ -4354,13 +4420,13 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/30/2019 07:57:29</publishTime>
     </File>
     <File Include="Servicio/LlamadaServicio.aspx">
-      <publishTime>04/17/2020 15:10:01</publishTime>
+      <publishTime>06/09/2020 19:13:48</publishTime>
     </File>
     <File Include="Servicio/TarjetaEquipo.aspx">
-      <publishTime>04/13/2020 16:47:32</publishTime>
+      <publishTime>06/09/2020 19:15:06</publishTime>
     </File>
     <File Include="Servicio/TransferenciaStock.aspx">
-      <publishTime>04/15/2020 16:00:12</publishTime>
+      <publishTime>06/09/2020 19:12:45</publishTime>
     </File>
     <File Include="Tools/General.js">
       <publishTime>02/14/2020 10:36:41</publishTime>
@@ -4396,7 +4462,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/30/2019 07:57:29</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/28/2020 19:50:03</publishTime>
+      <publishTime>06/12/2020 10:59:06</publishTime>
     </File>
   </ItemGroup>
 </Project>

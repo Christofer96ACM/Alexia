@@ -368,7 +368,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_CONTRATOS", obep.CardCode, obep.Id_Dire, obep.Code);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_CONTRATOS", obep.CardCode, obep.Id_Dire, obep.Code, obep.LOCAL, obep.Descripcion, obep.provincia, obep.distrito, obep.DateIn, obep.DateFi, obep.CompanyDB, obep.Project);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -595,7 +595,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD", obep.ParValue, obep.ColumnIndex);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD", obep.ParValue, obep.CardName, obep.ColumnIndex);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -613,7 +613,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD_P", obep.ParValue, obep.ColumnIndex);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD_P", obep.ParValue, obep.CardName, obep.ColumnIndex);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1101,7 +1101,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_KITS", obep.ItemCode, obep.WhsCode);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_KITS", obep.ItemCode, obep.WhsCode, obep.VALOR, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1137,7 +1137,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_ITEM_SEGUN_ALMACEN", obep.ItemCode, obep.WhsCode);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_ITEM_SEGUN_ALMACEN", obep.ItemCode, obep.WhsCode, obep.VALOR, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1155,7 +1155,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_ARTICULO", obep.ItemCode, obep.VALOR, obep.accion);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_ARTICULO", obep.ItemCode, obep.VALOR, obep.accion, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -7962,7 +7962,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_RPCJ", obep.DateIn, obep.DateFi, obep.Project, obep.Socied);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_RPCJ", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.Number);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);

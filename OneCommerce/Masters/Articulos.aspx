@@ -632,6 +632,16 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td id="Prd" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip">
+                                            <ClientSideEvents KeyUp="Get_Product"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td id="Pr" style="width:105px">
                                         Marca/Modelo:</td>
                                     <td style="width:300px">

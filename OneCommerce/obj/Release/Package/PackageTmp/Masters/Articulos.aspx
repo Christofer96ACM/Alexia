@@ -599,7 +599,7 @@
                                     <td id="ProductParCaption" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
-                                        <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100%" 
+                                        <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="300px" 
                                             ClientInstanceName="txtParProduct">
                                             <ClientSideEvents KeyUp="Get_Product"/>
                                         </dx:ASPxTextBox>
@@ -628,6 +628,26 @@
                                                     <Border BorderWidth="0px" />
                                                 </ErrorFrameStyle>
                                             </ValidationSettings>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Prd" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip">
+                                            <ClientSideEvents KeyUp="Get_Product"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Pr" style="width:105px">
+                                        Marca/Modelo:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtmarc" runat="server" Width="300px" 
+                                            ClientInstanceName="txtmarc">
+                                            <ClientSideEvents KeyUp="Get_Product"/>
                                         </dx:ASPxTextBox>
                                     </td>
                                 </tr>
@@ -734,10 +754,10 @@
                                         ShowInCustomizationForm="True" VisibleIndex="29" Width="0px" Visible="false">
                                     </dx:GridViewDataTextColumn>
                                     <dx:GridViewDataTextColumn Caption="Marca" FieldName="U_GOS_MARCA" 
-                                        ShowInCustomizationForm="True" VisibleIndex="30" Width="0px" Visible="false">
+                                        ShowInCustomizationForm="True" VisibleIndex="30" Width="0px" Visible="true">
                                     </dx:GridViewDataTextColumn>
                                     <dx:GridViewDataTextColumn Caption="Modelo" FieldName="U_GOS_MODELO" 
-                                        ShowInCustomizationForm="True" VisibleIndex="31" Width="0px" Visible="false">
+                                        ShowInCustomizationForm="True" VisibleIndex="31" Width="0px" Visible="true">
                                     </dx:GridViewDataTextColumn>
                                     <dx:GridViewDataTextColumn Caption="DetalleServicio" FieldName="DetalleServicio" 
                                         ShowInCustomizationForm="True" VisibleIndex="32" Width="0px" Visible="false">

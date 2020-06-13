@@ -463,6 +463,15 @@ namespace OneCommerce.Masters {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtQuantityKit;
         
         /// <summary>
+        /// txtdescrip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdescrip;
+        
+        /// <summary>
         /// txtmarc control.
         /// </summary>
         /// <remarks>

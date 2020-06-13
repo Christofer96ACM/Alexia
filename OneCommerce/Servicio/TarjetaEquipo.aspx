@@ -394,6 +394,26 @@
                                         </dx:ASPxTextBox>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="Prd" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip">
+                                            <ClientSideEvents KeyUp="Get_Product"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Pr" style="width:105px">
+                                        Marca/Modelo:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtmarc" runat="server" Width="300px" 
+                                            ClientInstanceName="txtmarc">
+                                            <ClientSideEvents KeyUp="Get_Product"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -483,6 +503,16 @@
                                             ClientInstanceName="bteClientSearch" AutoPostBack="False">
                                             <ClientSideEvents Click="Get_Client" />
                                         </dx:ASPxButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
                                     </td>
                                 </tr>
                             </table>

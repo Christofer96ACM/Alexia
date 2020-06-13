@@ -163,6 +163,7 @@ namespace OneCommerce.Servicio
             {
                 Socied = obec.Socied,
                 ParValue = txtParClient.Text.Trim(),
+                CardName = txtRazonS.Text,
                 ColumnIndex = ((GridViewDataColumn)gdvClientSearch.GetSortedColumns().ElementAt(0)).VisibleIndex
             };
             var obrd = new BRDocument();
@@ -440,6 +441,8 @@ namespace OneCommerce.Servicio
                     Socied = obec.Socied,
                     accion = 1,
                     ItemCode = txtParProduct.Text.Trim(),
+                    VALOR = txtmarc.Text,
+                    Descripcion = txtdescrip.Text
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.GET_ARTICULOS_GENERAL(obep);

@@ -837,6 +837,16 @@
                                         </dx:ASPxButton>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -1005,9 +1015,26 @@
                                         <td id="ProductParCaption" style="width:105px">
                                             Código:</td>
                                         <td style="width:300px">
-                                            <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100%" 
+                                            <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100px" 
                                                 ClientInstanceName="txtParProduct">
                                                 <ClientSideEvents KeyPress="Get_Product" />
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        
+                                        <td id="ProductParCaption2" style="width:105px">
+                                            Descripción:</td>
+                                        <td style="width:300px">
+                                            <dx:ASPxTextBox ID="txtDescription" runat="server" Width="400px" 
+                                                ClientInstanceName="txtDescription">
+                                                <ClientSideEvents KeyUp="Get_Product" />
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        <td id="ProductParCaption3" style="width:105px">
+                                            Marca:</td>
+                                        <td style="width:300px">
+                                            <dx:ASPxTextBox ID="txtMarca" runat="server" Width="100px" 
+                                                ClientInstanceName="txtMarca">
+                                                <ClientSideEvents KeyUp="Get_Product" />
                                             </dx:ASPxTextBox>
                                         </td>
                                         <td>
@@ -1094,6 +1121,10 @@
                                         </dx:GridViewDataTextColumn>
                                             <dx:GridViewDataTextColumn Caption="InvntItem" FieldName="InvntItem" 
                                             ShowInCustomizationForm="True" Visible="true" VisibleIndex="11" 
+                                            Width="80px">
+                                        </dx:GridViewDataTextColumn>
+                                        <dx:GridViewDataTextColumn Caption="Marca" FieldName="U_GOS_MARCA" 
+                                            ShowInCustomizationForm="True" Visible="true" VisibleIndex="12" 
                                             Width="80px">
                                         </dx:GridViewDataTextColumn>
                                         <%--<dx:GridViewDataTextColumn Caption="Kit" FieldName="U_BF_CodKit" 
@@ -1212,10 +1243,17 @@
                                         <td style="width:5px">
                                         </td>
                                         <td style="width:130px">
-                                            Nro. Documento:</td>
+                                            Serie Doc.:</td>
                                         <td style="width:170px">
-                                            <dx:ASPxTextBox ID="txtNumAtCards" runat="server" 
+                                            <dx:ASPxTextBox ID="txtNumAtCards" runat="server"
                                                 ClientInstanceName="txtNumAtCards" Width="170px">
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        <td style="width:130px">
+                                            Correlativo Doc.:</td>
+                                        <td style="width:100px">
+                                            <dx:ASPxTextBox ID="txtCorrelativo" runat="server"
+                                                ClientInstanceName="txtCorrelativo" Width="100px">
                                             </dx:ASPxTextBox>
                                         </td>
                                         <td style="width:50px">
@@ -1244,6 +1282,24 @@
                                         </td>
                        
                                     </tr>
+                                    <tr>
+                                    <td style="width:105px">
+                                        Dirección:</td>
+                                    <td colspan="2">
+                                        <dx:ASPxTextBox ID="txtdirec" runat="server" 
+                                            ClientInstanceName="txtdirec" Width="260px">
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                    <td style="width:5px">
+                                    </td>
+                                        <td style="width:40px"></td>
+                                        <td>
+                                             <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
+                                    
+                                </tr>
                                 </table>
                             </td>
                         </tr>
@@ -1367,6 +1423,20 @@
                                         <Row Font-Size="7pt">
                                         </Row>
                                     </Styles>
+                                     <SettingsPager Visible="False" Mode="ShowAllRecords">
+                                                    </SettingsPager>
+                                                    <SettingsEditing Mode="Inline" NewItemRowPosition="Bottom" />
+                                                    <Settings ShowFooter="True" ShowTitlePanel="True" />
+                                                    <SettingsText Title="Nota de Crédito" />
+                                                    <Styles>
+                                                        <Row Font-Size="7pt">
+                                                        </Row>
+                                                        <Footer Font-Size="1pt">
+                                                        </Footer>
+                                                        <TitlePanel Font-Bold="True" Font-Size="7pt" HorizontalAlign="Center">
+                                                        </TitlePanel>
+                                                    </Styles>
+                                                    
                                 </dx:ASPxGridView>
                             </td>
                         </tr>
@@ -1396,6 +1466,9 @@
                 </dx:PopupControlContentControl>
             </ContentCollection>
         </dx:ASPxPopupControl>
+     <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="gdvOrinSearch">
+    </dx:ASPxGridViewExporter>
+
         <dx:ASPxHiddenField ID="hdfTemp" runat="server" ClientInstanceName="hdfTemp">
         </dx:ASPxHiddenField>
         <dx:ASPxCallback ID="clbOperation" runat="server" 

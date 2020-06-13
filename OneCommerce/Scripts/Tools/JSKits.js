@@ -163,7 +163,16 @@ function ClearControlsClient() {
 function Get_Product() {
     gdvProductSearch.SetFocusedRowIndex(-1);
     gdvProductSearch.PerformCallback("GENERAL");
-    gdvProductSearch.Focus();
+    //gdvProductSearch.Focus();
+}
+function Get_Product1(s, e) {
+    gdvProductSearch.SetFocusedRowIndex(-1);
+    gdvProductSearch.PerformCallback("GENERAL");
+    if (e.htmlEvent.keyCode === 13) {
+        gdvProductSearch.SetFocusedRowIndex(0);
+        OkProduct();
+        ASPxClientUtils.PreventEventAndBubble(e.htmlEvent);
+    }
 }
 function OkProduct() {
     var rowc = gdvProductSearch.GetVisibleRowsOnPage();
@@ -204,9 +213,17 @@ function fincallback(s, e) {
 function Get_Product2() {
     gdvProductSearch2.SetFocusedRowIndex(-1);
     gdvProductSearch2.PerformCallback("GENERAL");
-    gdvProductSearch2.Focus();
+    //gdvProductSearch2.Focus();
 }
-
+function Get_Product22(s, e) {
+    gdvProductSearch2.SetFocusedRowIndex(-1);
+    gdvProductSearch2.PerformCallback("GENERAL");
+    if (e.htmlEvent.keyCode === 13) {
+        gdvProductSearch2.SetFocusedRowIndex(0);
+        OkProduct2();
+        ASPxClientUtils.PreventEventAndBubble(e.htmlEvent);
+    }
+}
 function OkProduct2() {
     var rowc = gdvProductSearch2.GetVisibleRowsOnPage();
     if (rowc === 0) {
@@ -241,9 +258,17 @@ function Show_ProductSearch2() {
 function Get_Product3() {
     gdvProductSearch3.SetFocusedRowIndex(-1);
     gdvProductSearch3.PerformCallback("GENERAL");
-    gdvProductSearch3.Focus();
+    //gdvProductSearch3.Focus();
 }
-
+function Get_Product33(s, e) {
+    gdvProductSearch3.SetFocusedRowIndex(-1);
+    gdvProductSearch3.PerformCallback("GENERAL");
+    if (e.htmlEvent.keyCode === 13) {
+        gdvProductSearch3.SetFocusedRowIndex(0);
+        OkProduct3();
+        ASPxClientUtils.PreventEventAndBubble(e.htmlEvent);
+    }
+}
 function OkProduct3() {
     var rowc = gdvProductSearch3.GetVisibleRowsOnPage();
     if (rowc === 0) {

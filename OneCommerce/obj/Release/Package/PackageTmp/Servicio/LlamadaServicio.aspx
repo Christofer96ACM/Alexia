@@ -496,10 +496,18 @@
                                         </dx:ASPxTextBox>
                                     </td>
                                     <td id="ClientParCaption4" style="width:50px">
-                                        Fecha:</td>
+                                        Fecha Inicio:</td>
                                     <td style="width:100px">
                                         <dx:ASPxDateEdit ID="dteFecha" runat="server" Width="100px" 
                                             ClientInstanceName="dteFecha">
+                                            <ClientSideEvents DateChanged="Get_Service1" />
+                                        </dx:ASPxDateEdit>
+                                    </td>
+                                    <td id="cli" style="width:50px">
+                                        Fecha Fin:</td>
+                                    <td style="width:100px">
+                                        <dx:ASPxDateEdit ID="dteFecha2" runat="server" Width="100px" 
+                                            ClientInstanceName="dteFecha2">
                                             <ClientSideEvents DateChanged="Get_Service1" />
                                         </dx:ASPxDateEdit>
                                     </td>
@@ -786,6 +794,16 @@
                                             ClientInstanceName="bteClientSearch" AutoPostBack="False">
                                             <ClientSideEvents Click="Get_Client" />
                                         </dx:ASPxButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
                                     </td>
                                 </tr>
                             </table>

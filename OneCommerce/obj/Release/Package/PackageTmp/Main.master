@@ -81,7 +81,7 @@
                                     </dx:NavBarGroup>
                                     <dx:NavBarGroup Name="Reports" Text="Reportes" Expanded="False">
                                         <Items>
-                                            <dx:NavBarItem Name="Dashboard Ventas" Text="Dashboard" NavigateUrl="~/Reportes/Dashboard.aspx">
+                                            <dx:NavBarItem Name="Dashboard Ventas" Text="Dashboard Ventas" NavigateUrl="~/Reportes/Dashboard.aspx">
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="Dashboard Compras" Text="Dashboard Compras" NavigateUrl="~/Reportes/DashboardCompras.aspx">
                                             </dx:NavBarItem>
@@ -124,6 +124,8 @@
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="TipoCambio" Text="Tipo de Cambio"  NavigateUrl="~/Masters/TipoCambio.aspx">
                                             </dx:NavBarItem>
+                                            <%--<dx:NavBarItem Name="Recoverer" Text="Recuperar Contraseña"  NavigateUrl="~/Account/Recoverer.aspx">
+                                            </dx:NavBarItem>--%>
                                         </Items>
                                     </dx:NavBarGroup>
                                      <dx:NavBarGroup Name="Servicio" Text="Servicio"  Expanded="False">

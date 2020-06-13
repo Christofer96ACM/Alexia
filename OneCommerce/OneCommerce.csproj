@@ -20,7 +20,8 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
-    <IISExpressSSLPort>44319</IISExpressSSLPort>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -1194,6 +1195,11 @@
     <Content Include="Purchase\Compras\GuiaCompra.aspx" />
     <Content Include="Purchase\Compras\NotaCreditoCompra.aspx" />
     <Content Include="Purchase\Compras\PedidoCompra.aspx" />
+    <Content Include="Reportes\Config\Action_Filter_32x32.png" />
+    <Content Include="Reportes\Config\DashboardCompras.xml" />
+    <Content Include="Reportes\Config\DashboardServicios.xml" />
+    <Content Include="Reportes\Config\DashboardVentas.xml" />
+    <Content Include="Reportes\Config\jquery.rowspanizer.js" />
     <Content Include="Reportes\Dashboard.aspx" />
     <Content Include="Reportes\DashboardCompras.aspx" />
     <Content Include="Reportes\DashboardService.aspx" />
@@ -1681,7 +1687,6 @@
     <Folder Include="aspnet_client\system_web\2_0_50727\" />
     <Folder Include="aspnet_client\system_web\4_6_1055\" />
     <Folder Include="Print\" />
-    <Folder Include="Reportes\Config\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
