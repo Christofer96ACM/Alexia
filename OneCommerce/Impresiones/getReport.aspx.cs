@@ -31,7 +31,7 @@ namespace OneCommerce
                 });
 
                 string var1 = ocno.DocEntry.ToString();//Request.QueryString["docEnry"];
-                String strServer = "SRV-SQL01";
+                String strServer = obec.SRV;
                 String strDatabase = obec.CompanyDB;
                 String strUserID = "sa";
                 String strPwd = "MPP@SW0RD";

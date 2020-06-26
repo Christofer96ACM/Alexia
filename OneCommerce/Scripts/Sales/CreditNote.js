@@ -623,7 +623,7 @@ function Set_LineProduct(result) {
 }
 
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(txtPrice.GetValue());
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);
@@ -671,7 +671,7 @@ function OkProduct() {
         alert("Seleccione un registro para realizar esta operación.")
     }
     else {
-        gdvProductSearch.GetRowValues(gdvProductSearch.GetFocusedRowIndex(), "ItemCode;ItemName;OnHand;PriceBefDi;DiscPrcnt;Price;PriceVat;IssueMthd;NumInSale", OnGetRowValuesProduct);
+        gdvProductSearch.GetRowValues(gdvProductSearch.GetFocusedRowIndex(), "ItemCode;ItemName;OnHand;PriceBefDi;DiscPrcnt;Price;PriceVat;IssueMthd;NumInSale;ActivoC;ActivoS;InvntItem", OnGetRowValuesProduct);
     }
 }
 

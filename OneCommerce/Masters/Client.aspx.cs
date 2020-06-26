@@ -102,6 +102,8 @@ namespace OneCommerce.Masters
             Session["crd1"] = new List<BEContactLines>();
             Session["dire"] = new List<BEClientAddress>();
             Session["drcn"] = new List<BEClientAddress>();
+            Session["RET1"] = new List<BEClient>();
+            Session["RET2"] = new List<BEClient>();
             hdfTemp.Add("theme", ASPxWebControl.GlobalTheme);
             hdfTemp.Add("_emid", obec.U_BF_EMID);
             hdfTemp.Add("_soci", obec.Socied);
@@ -442,6 +444,15 @@ namespace OneCommerce.Masters
             obj.ListNum = Convert.ToString(ListNum.Value);
             obj.Lines = ((List<BEContactLines>)Session["crd1"]);
             obj.Lines2 = ((List<BEClientAddress>)Session["dire"]);
+            obj.Retencion1 = ((List<BEClient>)Session["RET1"]);
+            obj.Retencion2 = ((List<BEClient>)Session["RET2"]);
+            obj.WTLiable = checkRetencion.Value.ToString();
+            if (obj.WTLiable == "Y")
+            {
+                obj.CrtfcateNO = CrtfcateNO.Text;
+                obj.ExpireDate = Convert.ToDateTime(ExpireDate.Text);
+                obj.AccCritria = rbtRetencion.Value.ToString();
+            }
             using (var obrd = new BRDocument())
             {
                 obrd.SaveBusinessPartner(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
@@ -473,6 +484,16 @@ namespace OneCommerce.Masters
             obj.Active = Convert.ToString(rbtnestado.SelectedItem.Value);
             obj.Lines = ((List<BEContactLines>)Session["crd1"]);
             obj.Lines2 = ((List<BEClientAddress>)Session["dire"]);
+
+            obj.Retencion1 = ((List<BEClient>)Session["RET1"]);
+            obj.Retencion2 = ((List<BEClient>)Session["RET2"]);
+            obj.WTLiable = checkRetencion.Value.ToString();
+            if (obj.WTLiable == "Y")
+            {
+                obj.CrtfcateNO = CrtfcateNO.Text;
+                obj.ExpireDate = Convert.ToDateTime(ExpireDate.Text);
+                obj.AccCritria = rbtRetencion.Value.ToString();
+            }
             using (var obrd = new BRDocument())
             {
                 obrd.UpdateBusinessPartner(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
@@ -985,6 +1006,90 @@ namespace OneCommerce.Masters
         protected void gdvGabinete_DataBinding(object sender, EventArgs e)
         {
             gdvGabinete.DataSource = Session["drcn"];
+        }
+
+        protected void gdvRetencion_CustomCallback(object sender, ASPxGridViewCustomCallbackEventArgs e)
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            if (e.Parameters.Contains("SRCH"))
+            {
+                var spl = e.Parameters.Split(':');
+                var obj = new BEParameters()
+                {
+                    Socied = obec.Socied,
+                };
+                var obrd = new BRDocument();
+                var olst = obrd.DXP_GET_RETENCION(obj);
+                Session["RET1"] = olst.Where(i => i.Type == "I").ToList();
+                gdvRetencion.DataSource = Session["RET1"];
+                gdvRetencion.DataBind();
+            }
+        }
+
+        protected void gdvRetencion_RowUpdating(object sender, ASPxDataUpdatingEventArgs e)
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            var index = gdvRetencion.EditingRowVisibleIndex;
+
+            ((List<BEClient>)Session["RET1"])[index].Active = Convert.ToString(e.NewValues["Active"]);
+
+
+            gdvRetencion.CancelEdit();
+            e.Cancel = true;
+            gdvRetencion.DataSource = ((List<BEClient>)Session["RET1"]);
+            gdvRetencion.DataBind();
+        }
+
+        protected void gdvRetencion_DataBinding(object sender, EventArgs e)
+        {
+            gdvRetencion.DataSource = Session["RET1"];
+        }
+
+        protected void gdvRetencion_CellEditorInitialize(object sender, ASPxGridViewEditorEventArgs e)
+        {
+
+        }
+
+        protected void gdviva_CustomCallback(object sender, ASPxGridViewCustomCallbackEventArgs e)
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            if (e.Parameters.Contains("SRCH"))
+            {
+                var spl = e.Parameters.Split(':');
+                var obj = new BEParameters()
+                {
+                    Socied = obec.Socied,
+                };
+                var obrd = new BRDocument();
+                var olst = obrd.DXP_GET_RETENCION(obj);
+                Session["RET2"] = olst.Where(i => i.Type == "V").ToList();
+                gdviva.DataSource = Session["RET2"];
+                gdviva.DataBind();
+            }
+        }
+
+        protected void gdviva_RowUpdating(object sender, ASPxDataUpdatingEventArgs e)
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            var index = gdviva.EditingRowVisibleIndex;
+
+            ((List<BEClient>)Session["RET2"])[index].Active = Convert.ToString(e.NewValues["Active"]);
+
+
+            gdviva.CancelEdit();
+            e.Cancel = true;
+            gdviva.DataSource = ((List<BEClient>)Session["RET2"]);
+            gdviva.DataBind();
+        }
+
+        protected void gdviva_DataBinding(object sender, EventArgs e)
+        {
+            gdviva.DataSource = Session["RET2"];
+        }
+
+        protected void gdviva_CellEditorInitialize(object sender, ASPxGridViewEditorEventArgs e)
+        {
+
         }
     }
 }

@@ -847,7 +847,7 @@ function Set_LineProduct(result) {
 }
 
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(txtPrice.GetValue());
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);
@@ -1144,6 +1144,20 @@ function EndOdlnSearch() {
     gdvOdlnSearch.SetFocusedRowIndex(0);
     ppcOdlnSearch.UpdatePosition();
 }
+function Cancel() {
+    
+    if (txtDocEntry.GetText == "" || txtDocNum.GetText() == "") {
+        alert("No existe Número de Documento");
+    }
+    else {
+        var result = confirm("Este documento no puede modificarse tras la cancelación.\n¿Desea continuar?");
+        if (result) {
+            ldpProcess.SetText("Guardando, espere por favor...");
+            ldpProcess.Show();
+            clbOperation.PerformCallback("Cancel");
+        }
+    }
+}
 function Set_Operation(s,e) {
     // GUARDAR
     if (e.item.name === "Save") {
@@ -1162,6 +1176,9 @@ function Set_Operation(s,e) {
     }
     else if (e.item.name === "DeliveryFrom") {
         ShowOdlnSearch();
+    }
+    else if (e.item.name === "Cancel") {
+        Cancel();
     }
     //MEDIOS DE PAGO
     else if (e.item.name === "PayEfe" || e.item.name === "PayTar") {
@@ -1199,6 +1216,17 @@ function Com_Operation(s, e) {
         txtDocNum.SetText(_spd[2]);
         EnabledControl(false);
         Set_MaintenanceStatus(false);
+        validarPecios(false);
+        gdvinv1.UpdateEdit();
+        alert("¡Operación concretada con éxito!");
+    }
+    if (e.result.indexOf("SIU") !== -1) {
+        _spd = e.result.split("#");
+        txtDocEntry.SetText(_spd[1]);
+        txtDocNum.SetText(_spd[2]);
+        EnabledControl(false);
+        Set_MaintenanceStatus(false);
+        txtDocStatus.SetText("Cerrado");
         validarPecios(false);
         gdvinv1.UpdateEdit();
         alert("¡Operación concretada con éxito!");
@@ -1409,7 +1437,8 @@ function Set_VisibleOption() {
     mnuOper.GetItemByName("Quote").SetVisible(true);
     mnuOper.GetItemByName("OrderTo").SetVisible(false);
     mnuOper.GetItemByName("DeliveryNote").SetVisible(false);
-    mnuOper.GetItemByName("Cancel").SetVisible(false);
+    mnuOper.GetItemByName("Cancel").SetVisible(true);
+    mnuOper.GetItemByName("Cancel").SetEnabled(false);
     //mnuOper.GetItemByName("Ticket").SetVisible(false);
     //mnuOper.GetItemByName("TicketBill").SetVisible(false);
     //mnuOper.GetItemByName("Ticket").SetEnabled(false);
@@ -1439,7 +1468,7 @@ function OkOinv() {
 
 function OnGetRowValuesOinv(values) {
     hdfTemp.Set("Currency", values[21].toString());
-
+    mnuOper.GetItemByName("Cancel").SetEnabled(true);
     txtShipToCode.SetText(values[23]);//ENTREGA
     bteShipToCode.SetText(values[25]);//ENTREGA
     txtBillToCode.SetText(values[24]);//FACTURA

@@ -157,6 +157,60 @@ namespace OneCommerce.Masters {
         protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbbCurrency;
         
         /// <summary>
+        /// checkRetencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox checkRetencion;
+        
+        /// <summary>
+        /// CrtfcateNO control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox CrtfcateNO;
+        
+        /// <summary>
+        /// ExpireDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit ExpireDate;
+        
+        /// <summary>
+        /// rbtRetencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxRadioButtonList rbtRetencion;
+        
+        /// <summary>
+        /// gdvRetencion control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gdvRetencion;
+        
+        /// <summary>
+        /// gdviva control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gdviva;
+        
+        /// <summary>
         /// gvDirecciones control.
         /// </summary>
         /// <remarks>

@@ -26,5 +26,10 @@ namespace BusinessEntities
         public string U_BIZ_CODI { get; set; }
         public decimal U_BIZ_MOV { get; set; }
         public int Linea { get; set; }
+        public string WTCode { get; set; }
+        public string WTName { get; set; }
+        public decimal Rate { get; set; }
+        public string Type { get; set; }
+        public string Active { get; set; }
     }
 }

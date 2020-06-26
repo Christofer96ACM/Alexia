@@ -45,9 +45,14 @@ namespace BusinessEntities
 
         public List<BEContactLines> Lines { get; set; }
         public List<BEClientAddress> Lines2 { get; set; }
-
+        public List<BEClient> Retencion1 { get; set; }
+        public List<BEClient> Retencion2 { get; set; }
+        public string WTLiable { get; set; }
+        public string CrtfcateNO { get; set; }
+        public DateTime? ExpireDate { get; set; }
         public string U_PN_Vend  { get; set; }
-	    public string U_PN_DepDirVive { get; set; }
+        public string AccCritria { get; set; }
+        public string U_PN_DepDirVive { get; set; }
 		public string U_PN_ProvDirVive { get; set; }
 		public string U_PN_DistDirVive { get; set; }
 		public string U_PN_Zona { get; set; }

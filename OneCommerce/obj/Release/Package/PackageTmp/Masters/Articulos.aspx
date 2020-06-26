@@ -596,7 +596,7 @@
                         <td>
                             <table class="tablespace" style="width:100%">
                                 <tr>
-                                    <td id="ProductParCaption" style="width:105px">
+                                    <td id="Produ" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="300px" 

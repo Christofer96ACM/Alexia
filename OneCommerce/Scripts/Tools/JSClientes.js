@@ -18,6 +18,9 @@ $(document).ready(function () {
         alert(e.Message);
     }
 });
+function checkRetencionAction() {
+
+}
 function Set_VisibleOption() {
     mnuOper.GetItemByName("Cancel").SetVisible(false);
     mnuOper.GetItemByName("Duplicate").SetVisible(false);
@@ -75,6 +78,8 @@ function Get_InitialData() {
     });
 }
 function Set_InitialData(result) {
+    gdvRetencion.PerformCallback("SRCH");
+    gdviva.PerformCallback("SRCH");
     dteCrU_PN_FecNac.SetDate(new Date());
     //ActiveDirec.SetValue("Activo");
     //txtQuantityKit.SetVisible(false);

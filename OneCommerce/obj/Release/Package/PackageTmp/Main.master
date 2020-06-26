@@ -124,8 +124,8 @@
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="TipoCambio" Text="Tipo de Cambio"  NavigateUrl="~/Masters/TipoCambio.aspx">
                                             </dx:NavBarItem>
-                                            <%--<dx:NavBarItem Name="Recoverer" Text="Recuperar Contraseña"  NavigateUrl="~/Account/Recoverer.aspx">
-                                            </dx:NavBarItem>--%>
+                                            <dx:NavBarItem Name="Recoverer" Text="Recuperar Contraseña"  NavigateUrl="~/Account/Recoverer.aspx">
+                                            </dx:NavBarItem>
                                         </Items>
                                     </dx:NavBarGroup>
                                      <dx:NavBarGroup Name="Servicio" Text="Servicio"  Expanded="False">

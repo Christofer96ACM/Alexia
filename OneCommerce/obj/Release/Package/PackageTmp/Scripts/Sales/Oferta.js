@@ -270,7 +270,7 @@ function Get_Movi() {
 }
 // INICIALIZA DATOS BASICOS PARA LA ORDEN DE VENTA
 function Set_InitialData(result) {
-    cbeOwnerCode.SetEnabled(false);
+    cbeOwnerCode.SetEnabled(true);
     //txtQuantityKit.SetVisible(false);
     //tetU_BF_HCFI.SetEnabled(false);
 
@@ -737,7 +737,7 @@ function Set_LineProduct(result) {
     });
 }
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(alphanumeric(txtPrice.GetValue()));
     //alert(_pr);
     var _cd = bteItemCode.GetText();

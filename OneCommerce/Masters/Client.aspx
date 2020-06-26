@@ -9,7 +9,7 @@
 <script type="text/javascript" src="../Scripts/Jquerys/Sunat.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <dx:ASPxFormLayout runat="server" ID="frlMain" 
+    <dx:ASPxFormLayout runat="server" ID="frlMain" Height="900px"
         RequiredMarkDisplayMode="None" EnableViewState="False" EnableTabScrolling="true">
         <Items>
             <dx:LayoutGroup Caption="Clientes" GroupBoxStyle-Caption-Font-Size="X-Large"
@@ -406,8 +406,7 @@
                                                                 ClientInstanceName="GroupNum" EnableSynchronization="False">
                                                             </dx:ASPxComboBox>
                                                         </td>
-                                                    </tr>
-                                                    <tr>
+                                                        <td style="width:10px;"></td>
                                                         <td>Lista de Precios: </td>
                                                         <td>
                                                             <dx:ASPxComboBox ID="ListNum" runat="server" Width="100%"
@@ -421,6 +420,109 @@
                                                             <dx:ASPxComboBox ID="cbbCurrency" runat="server" Width="100%"
                                                                 ClientInstanceName="cbbCurrency" EnableSynchronization="False">
                                                             </dx:ASPxComboBox>
+                                                        </td>
+                                                        <td style="width:10px;"></td>
+                                                        <td>Sujeto a Retención: </td>
+                                                        <td style="text-align:center;">
+                                                            <dx:ASPxCheckBox ID = "checkRetencion" ClientInstanceName = "checkRetencion"
+                                                                runat="server" ValueChecked="Y" ValueUnchecked="N" Checked="false" ValueType="System.String"
+                                                                ClientSideEvents-CheckedChanged="checkRetencionAction">
+                                                            </dx:ASPxCheckBox>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Num. Certificado: </td>
+                                                        <td>
+                                                            <dx:ASPxTextBox ID="CrtfcateNO" runat="server" Width="100%" Visible="true"
+                                                                ClientInstanceName="CrtfcateNO" EnableSynchronization="False">
+                                                            </dx:ASPxTextBox>
+                                                        </td>
+                                                        <td style="width:10px;"></td>
+                                                        <td>Fecha Vencimiento: </td>
+                                                        <td>
+                                                            <dx:ASPxDateEdit ID="ExpireDate" runat="server" Width="100%"
+                                                                ClientInstanceName="ExpireDate">
+                                                            </dx:ASPxDateEdit>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="5">
+                                                            <dx:ASPxRadioButtonList ID="rbtRetencion" runat="server" Height="20px" 
+                                                                        RepeatDirection="Horizontal" Width="100%" SelectedIndex="0" 
+                                                                        ClientInstanceName="rbtRetencion" Border-BorderStyle="None">
+                                                                <Items>
+                                                                    <dx:ListEditItem Text="Periodificación Anticipada" Value="Y" Selected="True" />
+                                                                    <dx:ListEditItem Text="Fondos en Efectivo" Value="N" />
+                                                                </Items>
+                                                            </dx:ASPxRadioButtonList>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="5">
+                                                            <dx:ASPxGridView ID="gdvRetencion" runat="server" AutoGenerateColumns="False" Width="100%"
+                                                                ClientInstanceName="gdvRetencion" KeyFieldName="WTCode"
+                                                                OnCustomCallback="gdvRetencion_CustomCallback" OnRowUpdating="gdvRetencion_RowUpdating" OnDataBinding="gdvRetencion_DataBinding"
+                                                                OnCellEditorInitialize="gdvRetencion_CellEditorInitialize">
+                                                                <Columns>
+                                                                    <dx:GridViewCommandColumn Caption="Operación" ShowInCustomizationForm="True" 
+                                                                        VisibleIndex="0" Width="70px">
+                                                                        <EditButton Visible="true">
+                                                                        </EditButton>
+                                                                        <CellStyle Font-Size="8pt">
+                                                                        </CellStyle>
+                                                                    </dx:GridViewCommandColumn>
+                                                                    <dx:GridViewDataTextColumn Caption="Codigo Retención" PropertiesTextEdit-ClientInstanceName="WTCode"
+                                                                        ShowInCustomizationForm="True" VisibleIndex="1" Width="100px" 
+                                                                        FieldName="WTCode">
+                                                                    </dx:GridViewDataTextColumn>
+                                                                    <dx:GridViewDataTextColumn Caption="Descripción" PropertiesTextEdit-ClientInstanceName="WTName"
+                                                                        ShowInCustomizationForm="True" VisibleIndex="2" Width="100px" 
+                                                                        FieldName="WTName">
+                                                                    </dx:GridViewDataTextColumn>
+                                                                    <dx:GridViewDataCheckColumn VisibleIndex="3" UnboundType="String" Caption="Activo" FieldName="Active">
+                                                                        <PropertiesCheckEdit AllowGrayed="false" ValueChecked="Y" ValueUnchecked="N" ValueType="System.String"
+                                                                             ClientInstanceName="Active"></PropertiesCheckEdit>
+                                                                    </dx:GridViewDataCheckColumn>
+                                                                </Columns>
+                                                                <SettingsText Title="ITW Codigo Permitido" />
+                                                                <SettingsEditing Mode="Inline" />
+                                                                <SettingsPager Visible="False" Mode="ShowAllRecords" />
+                                                                <Settings ShowFooter="false" ShowTitlePanel="True" />
+                                                            </dx:ASPxGridView>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="5">
+                                                            <dx:ASPxGridView ID="gdviva" runat="server" AutoGenerateColumns="False" Width="100%"
+                                                                ClientInstanceName="gdviva" KeyFieldName="WTCode"
+                                                                OnCustomCallback="gdviva_CustomCallback" OnRowUpdating="gdviva_RowUpdating" OnDataBinding="gdviva_DataBinding"
+                                                                OnCellEditorInitialize="gdviva_CellEditorInitialize">
+                                                                <Columns>
+                                                                    <dx:GridViewCommandColumn Caption="Operación" ShowInCustomizationForm="True" 
+                                                                        VisibleIndex="0" Width="70px">
+                                                                        <EditButton Visible="true">
+                                                                        </EditButton>
+                                                                        <CellStyle Font-Size="8pt">
+                                                                        </CellStyle>
+                                                                    </dx:GridViewCommandColumn>
+                                                                    <dx:GridViewDataTextColumn Caption="Codigo Retención" PropertiesTextEdit-ClientInstanceName="WTCode"
+                                                                        ShowInCustomizationForm="True" VisibleIndex="1" Width="100px" 
+                                                                        FieldName="WTCode">
+                                                                    </dx:GridViewDataTextColumn>
+                                                                    <dx:GridViewDataTextColumn Caption="Descripción" PropertiesTextEdit-ClientInstanceName="WTName"
+                                                                        ShowInCustomizationForm="True" VisibleIndex="2" Width="100px" 
+                                                                        FieldName="WTName">
+                                                                    </dx:GridViewDataTextColumn>
+                                                                    <dx:GridViewDataCheckColumn VisibleIndex="3" UnboundType="String" Caption="Activo" FieldName="Active">
+                                                                        <PropertiesCheckEdit AllowGrayed="false" ValueChecked="Y" ValueUnchecked="N" ValueType="System.String"
+                                                                             ClientInstanceName="Active"></PropertiesCheckEdit>
+                                                                    </dx:GridViewDataCheckColumn>
+                                                                </Columns>
+                                                                <SettingsText Title="Codigo IVA Permitido" />
+                                                                <SettingsEditing Mode="Inline" />
+                                                                <SettingsPager Visible="False" Mode="ShowAllRecords" />
+                                                                <Settings ShowFooter="false" ShowTitlePanel="True" />
+                                                            </dx:ASPxGridView>
                                                         </td>
                                                     </tr>
                                                 </table>

@@ -662,7 +662,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption6" style="width:105px">
+                                    <td id="Client6" style="width:105px">
                                         Número de Cuenta:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtcuenta" runat="server" Width="100%" 
@@ -757,7 +757,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption9" style="width:105px">
+                                    <td id="Client9" style="width:105px">
                                         Número de Cuenta:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtcuenta2" runat="server" Width="100%" 
@@ -859,7 +859,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption7" style="width:105px">
+                                    <td id="Client7" style="width:105px">
                                         Proyecto:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtPrjCode" runat="server" Width="100%" 
@@ -944,7 +944,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption8" style="width:105px">
+                                    <td id="Client8" style="width:105px">
                                         Proyecto:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtPrjCode2" runat="server" Width="100%" 

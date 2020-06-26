@@ -18,8 +18,8 @@ namespace BusinessEntities
         public int OnHand { get; set; }
         public decimal NumInSale { get; set; }
         public decimal NumInBuy { get; set; }
-        public int Quantity { get; set; }
-        public int _Quantity { get; set; }
+        public decimal Quantity { get; set; }
+        public decimal _Quantity { get; set; }
         public decimal PriceBefDi { get; set; }
         public decimal DiscPrcnt { get; set; }
         public decimal Price { get; set; }

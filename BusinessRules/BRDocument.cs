@@ -70,6 +70,17 @@ namespace BusinessRules
                 return (olst);
             }
         }
+        public List<BEClient> DXP_GET_RETENCION(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_RETENCION(obep))
+            {
+                var olst = new List<BEClient>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEClient>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
         public List<BEDocumentLine> Get_DS_OSCSP_SRCH_INV1(BEParameters obep)
         {
             using (var odr = oda.Get_DS_OSCSP_SRCH_INV1(obep))
@@ -1337,6 +1348,21 @@ namespace BusinessRules
         public void SaveInvoice(BEDocument obj, object objs) 
         {
             oda.SaveInvoice(obj, objs);
+            Dispose(false);
+        }
+        public void CancelInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelInvoice(obj, objs);
+            Dispose(false);
+        }
+        public void CancelDownInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelDownInvoice(obj, objs);
+            Dispose(false);
+        }
+        public void CancelPurchaseInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelPurchaseInvoice(obj, objs);
             Dispose(false);
         }
         public void SaveDownPayment(BEDocument obj, object objs)

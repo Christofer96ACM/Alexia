@@ -85,6 +85,6 @@ C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntiti
 C:\Users\maqs.quispe\Desktop\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
 D:\Christofer\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
 D:\Christofer\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
 D:\Christofer\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
 D:\Christofer\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
-D:\Christofer\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache

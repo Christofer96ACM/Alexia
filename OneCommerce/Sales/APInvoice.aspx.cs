@@ -578,7 +578,7 @@ namespace OneCommerce.Sales
                 item.BaseType = Convert.ToInt32(item.ObjType);
                 item.BaseEntry = item.DocEntry;
                 item.BaseLine = item.LineNum - 1;
-                item._Quantity = item.Quantity;
+                item._Quantity = Convert.ToDecimal(item.Quantity);
                 item.BatchNum = item.BatchNums;
             });
             Session["cnoi"] = obj;
